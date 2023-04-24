@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Frutas</title>
+    <link rel="stylesheet" href="css/estilo1.css">
+	<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<header class="header">
+	<a href="#" class="logo">Zé da manga frutas</a>
+	
+	<nav class="navbar">
+		<button class="btnLogin-popup">Login</button>
+	</nav>
+	</header>
+
+	<section class="section">
+		<div class="wrapper">
+			<span class="icon-close">
+				<i class="bx bx-x"></i>
+			</span>
+
+			<div class="logreg-box">
+				<!-- formulario de login -->
+				<div class="form-box login">
+					<div class="logreg-titulo">
+						<h2>Login</h2>
+						<p>Por favor faça login</p>
+				</div>
+
+				<form action="#">
+					<div class="input-box">
+						<span class="icon"><i class="bx bxs-envelope"></i></span>
+						<input type="email" required>
+						<label>Email</label>
+					</div>
+
+					<div class="input-box">
+						<span class="icon"><i class="bx bxs-lock"></i></span>
+						<input type="password" required>
+						<label>Password</label>
+					</div>
+
+					<div class="remember-forgot">
+						<label><input type="checkbox">Continuar logado</label>
+						<a href="#">Esqueceu a senha?</a>
+					</div>
+
+					<button type="submit" class="btn">Login</button>
+
+					<div class="logreg-link">
+						<p>Não tem uma conta? <a href="#" class="link-cadastro">Criar  uma conta</a>
+						</p>
+					</div>
+				</form>	
+			</div>
+
+			<!-- formulario de cadastro -->
+			<div class="form-box cadastrar">
+				<div class="logreg-titulo">
+					<h2>Cadastro</h2>
+					<p>Por favor insira seus dados</p>
+				</div>
+
+			<form action="#">
+				<div class="input-box">
+					<span class="icon"><i class="bx bxs-user"></i></span>
+					<input type="text" required>
+					<label>Nome Completo</label>
+				</div>
+
+				<div class="input-box">
+					<span class="icon"><i class="bx bxs-envelope"></i></span>
+					<input type="email" required>
+					<label>Email</label>
+				</div>
+
+				<div class="input-box">
+					<span class="icon"><i class="bx bxs-lock"></i></span>
+					<input type="password" required>
+					<label>Password</label>
+				</div>
+				
+				<div class="remember-forgot">
+					<label><input type="checkbox">Eu concordo com Termos os e Condições</label>
+				</div>
+
+				<button type="submit" class="btn">Criar conta</button>
+
+				<div class="logreg-link">
+					<p>Já tem uma conta? <a href="#" class="link-login">Login</a>
+					</p>
+				</div>
+			</form>	
+		</div>
+		</div>
+	</div>
+	</section>
+    
+	<script src="script.js"></script>
+</body>
+</html>
